@@ -18,7 +18,7 @@
 }
 
 .button-white {
-  background-color: var(--white);
+  background-color:var(--white);
   color: var(--black);
   border: 1px solid #0000001a;
 }
