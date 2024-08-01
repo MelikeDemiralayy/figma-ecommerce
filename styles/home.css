@@ -142,3 +142,75 @@
   margin: 0 10px; 
 }
 
+/* Mobil ve Tablet İçin Stil Ayarları */
+@media (max-width: 768px) {
+  .hero {
+    height: 500px;
+    background-size: cover;
+  }
+
+  .hero-title {
+    font-size: 48px;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+    position: relative;
+  }
+
+  .hero-description {
+    font-size: 14px;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+    position: relative;
+  }
+
+  .hero-button {
+    width: 180px;
+    height: 45px;
+    padding: 12px 30px;
+    font-size: 14px;
+    position: relative;
+    margin: 20px auto;
+  }
+
+  .hero-stats {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    text-align: center;
+  }
+
+  .stat {
+    width: 100%;
+  }
+
+  .hero-icon-large,
+  .hero-icon-small {
+    display: none; /* Küçük ekranlarda büyük ikonları gizle */
+  }
+}
+
+/* Tablet ve Küçük Ekranlar İçin Stil Ayarları */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero {
+    height: 600px;
+  }
+
+  .hero-title {
+    font-size: 56px;
+    width: 80%;
+  }
+
+  .hero-description {
+    font-size: 15px;
+    width: 80%;
+  }
+
+  .hero-button {
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+  }
+}
