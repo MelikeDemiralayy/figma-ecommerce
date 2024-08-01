@@ -2,7 +2,7 @@
   width: 100%;
   height: 663px; 
   margin: 0 auto;
-  background: url("../assets/hero.jpg") no-repeat center center;
+  background: url("../assets/image/hero.jpg") no-repeat center center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -52,25 +52,11 @@
   position: absolute; 
   margin: 20px 0; 
 }
-
-.hero-button {
-  width: 210px; 
-  height: 52px;
-  top: 400px; 
+.button {
+  position: absolute;
+  top: 400px;
   left: 100px; 
-  padding: 16px 54px; 
-  border-radius: 62px; 
-  opacity: 1; 
-  background-color: var(--black); 
-  color: var(--white); 
-  text-align: center; 
-  text-decoration: none; 
-  font-size: 16px; 
-  font-weight: 600;
-  display: inline-block; 
-  position: absolute; 
   margin: 20px 0; 
-  cursor: pointer; 
 }
 
 .hero-stats {
@@ -142,7 +128,6 @@
   margin: 0 10px; 
 }
 
-/* Mobil ve Tablet İçin Stil Ayarları */
 @media (max-width: 768px) {
   .hero {
     height: 500px;
@@ -188,11 +173,10 @@
 
   .hero-icon-large,
   .hero-icon-small {
-    display: none; /* Küçük ekranlarda büyük ikonları gizle */
+    display: none; 
   }
 }
 
-/* Tablet ve Küçük Ekranlar İçin Stil Ayarları */
 @media (min-width: 769px) and (max-width: 1024px) {
   .hero {
     height: 600px;
