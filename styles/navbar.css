@@ -1,0 +1,126 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    background-color: var(--white);
+}
+
+.navbar{
+    position: relative;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1240px; 
+    height: 48px; 
+    margin: 0 auto; 
+    top: 62px; 
+    left:40%;
+    transform: translateX(-50%);  
+    background-color:var(--white);
+    opacity: 1; 
+    
+}
+.navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-items {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px; 
+}
+
+.navbar-link {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 16px;
+    font-family: var(--font-family);
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link p {
+    width: 160px;
+    height: 22px; 
+    gap: 0px; 
+    opacity: 1; 
+    font-family: var(--font-family);
+    color: var(--black);
+    font-size: 32px; 
+    font-weight: 700; 
+    line-height: 38.4px;
+    display: flex;
+    align-items: center; 
+    text-align: center; 
+    margin: 0; 
+}
+
+
+.navbar-icon {
+    width: 16px; 
+    height: 16px;
+    margin-left: 5px; 
+}
+
+.navbar-search {
+    flex-grow: 1; 
+    display: flex;
+    justify-content: center;
+    width: 577px; 
+    height: 48px;
+    gap: 12px;
+   
+}
+
+.navbar-search input {
+    width: 75%; 
+    padding: 8px;
+    border-radius: 62px;
+    border: 1px solid var(--gray);
+    background-color: var(--gray);
+    color: var(--white);
+    outline: none; 
+}
+
+.navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.navbar-action img {
+    width: 24px; 
+    height: 24px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        left: 0; 
+        transform: none;
+        padding: 0 16px;
+    }
+
+    .navbar-content {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .navbar-items {
+        display: none;
+    }
+}

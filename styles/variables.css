@@ -1,0 +1,36 @@
+:root{
+    --gray: #F0F0F0;
+    --light-gray: #F0EEED;
+    --dark-gray: #F2F0F1;
+    --black: #000000;
+    --white:#FFFFFF;
+
+
+    --secondary-font:var(--font-family-integral); 
+    --font-family: var(--font-family-satoshi);
+ }
+
+ *{
+    outline: none;
+    box-sizing: border-box;
+ }
+
+ html, body,ul,ol{
+    padding: 0;
+    margin: 0;
+ }
+
+ ul,ol{
+    list-style: none;
+ }
+ button{
+    border: none;
+ }
+ 
+ h1,h2,h3,h4,h5,h6,p{
+    margin:0
+ }
+
+ figure{
+    margin: 0;
+ }
