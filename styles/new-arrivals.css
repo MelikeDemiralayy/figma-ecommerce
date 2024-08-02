@@ -1,11 +1,11 @@
-body {
+/* body {
     margin: 0; 
     padding: 0; 
     background-color:var(--white);
     line-height: 1.6; 
     text-align: center; 
     box-sizing: border-box; 
-  }
+  } */
   
   .container {
     width: 90%; 
